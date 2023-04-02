@@ -1,0 +1,22 @@
+
+SHOW DATABASES
+use Laravel
+
+
+INSERT INTO `posts` (`id`, `title`, `category`, `content`, `image`, `created_at`, `updated_at`) VALUES 
+(1, ' Lorem ipsum was conceived as filler text', 'sport', ' The Lorem ipum filling text is used by graphic designers, programmers and printers with the aim of occupying the spaces of a website, an advertising product or an editorial production whose final text is not yet ready.
+This expedient serves to get an idea of the finished product that will soon be printed or disseminated via digital channels.
+In order to have a result that is more in keeping with the final result, the graphic designers, designers or typographers report the Lorem ipsum text in respect of two fundamental aspects, namely readability and editorial requirements.
+The choice of font and font size with which Lorem ipsum is reproduced answers to specific needs that go beyond the simple and simple filling of spaces dedicated to accepting real texts and allowing to have hands an advertising/publishing product, both web and paper, true to reality.', '<img src="https://pickupimage.com/free-photos/yukata-and-kimono/2358997">', '2020-05-25 10:29:52', '2020-05-25 10:29:52'),
+(2, ' Lorem Ipsum originates with Cicero in the 1st Century BC ', 'food', ' Et eveniet perspiciatis non eaque suscipit eum voluptatum nisi. Et nihil reiciendis ut dignissimos illum ut voluptas dolore et perferendis autem et quaerat harum non harum porro.', '<img src="https://pickupimage.com/free-photos/Changseon-Samcheonpo-Bridge/2358911">', '2021-05-25 10:29:52', '2020-05-25 10:29:52'),
+(3, ' This philosophical work, also known as On the Ends of Good and Evil', 'diverse', 'Ut nihil voluptatem aut galisum sunt in voluptates repudiandae! Eos ipsa repudiandae sed quia magnam et minima mollitia 33 culpa officia in adipisci inventore ut rerum voluptatem. ', '<img src="https://pickupimage.com/free-photos/Woman-pouring-rose-wine-in-glasses/2359012">', '2022-05-25 10:29:52', '2020-05-25 10:29:52'),
+(4, ' Lorem ipsum was conceived as filler text', 'health', ' Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before. Many say exploration is part of our destiny, but it’s actually our duty to future generations and their quest to ensure the survival of the human species.', '<img src="https://pickupimage.com/free-photos/A-beautiful-reflection-at-Lake-Hayes/2358387">', '1999-05-25 10:29:52', '2020-05-25 10:29:52'),
+(5, ' It is not known exactly when the text gained its current traditional form', 'sports', ' Pommy ipsum smeg head whizz morris dancers come hither, bugger codswallop gob. Taking the mick middle class bog roll bow ties are cool posh nosh off shop, stew and dumps taking the mick know your onions pulled a right corker, anorak mince pies tosser warts and all knackered, complete mare stupendous proper on the beat.', '<img src="https://pickupimage.com/free-photos/A-bear-in-Ten-Thousand-Smokes-Road/2358287"> ', '2000-05-25 10:29:52', '2020-05-25 10:29:52')
+
+
+INSERT INTO `pages` (`id`, `title`, `content`, `image`, `created_at`, `updated_at`) VALUES 
+(1, 'SERVICES', 'This is the SERVICES page to be developed further on','<img src="https://pickupimage.com/free-photos/SEO-Services-in-New-Jersey/2357079">','2020-05-25 10:29:52', '2020-05-25 10:29:52'),
+(2, 'RECIPES', 'This is the RECIPES page to be developed further on','<img src="https://pickupimage.com/free-photos/SEO-Services-in-New-Jersey/2357079">','2020-05-25 10:29:52', '2020-05-25 10:29:52'),
+(3, 'NEWS', 'This is the NEWS page to be developed further on','<img src="https://pickupimage.com/free-photos/SEO-Services-in-New-Jersey/2357079">','2020-05-25 10:29:52', '2020-05-25 10:29:52'),
+(4, 'SPORTS', 'This is the SPORTS page to be developed further on','<img src="https://pickupimage.com/free-photos/SEO-Services-in-New-Jersey/2357079">','2020-05-25 10:29:52', '2020-05-25 10:29:52'),
+(5, 'ABOUT', 'This is the ABOUT page to be developed further on','<img src="https://pickupimage.com/free-photos/SEO-Services-in-New-Jersey/2357079">','2020-05-25 10:29:52', '2020-05-25 10:29:52')
